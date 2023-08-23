@@ -77,6 +77,6 @@ const initialHistoryList = [
 ]
 
 // Replace your code here
-const App = () => <div>Hello World</div>
+const App = () => <History />
 
 export default App
