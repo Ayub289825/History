@@ -81,7 +81,7 @@ class History extends Component {
   state = {
     searchInput: '',
     isShow: false,
-    historyList: initialHistoryList,
+    HistoryList: initialHistoryList,
   }
 
   updateSearch = value => {
@@ -89,6 +89,7 @@ class History extends Component {
       searchInput: value,
     })
   }
+
   onChangeSearchInput = id => {
     this.setState({
       searchInput: event.target.value,
